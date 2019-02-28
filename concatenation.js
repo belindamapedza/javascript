@@ -1,6 +1,8 @@
-var numbers = [4,5,6,7];
-numbers[0];
-numbers[1];
-numbers[2];
-numbers[3];
-document.getElementById("demo").innerHTML=(numbers[0]+numbers[1]+numbers[2]+numbers[3])/numbers.length;
+var w,x,y,z;
+
+ w="This "
+ x="class "
+ y="is "
+ z="awesome"
+
+document.getElementById("demo").innerHTML="<h1>"+w+x+y+z+"</h1>";
