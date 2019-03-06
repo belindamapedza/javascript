@@ -1,9 +1,11 @@
 var cars = ["BMW ","Benz ","Audi ","VW ","Ruf"];
-
+var i=0;
 var text = "<ul>";
 cars.pop();
- for (i = 0; i < cars.length; i++) {
-      text += "<li>" + cars[i] + "</li>";
+do{ text += "<li>" + cars[i] +"</li>";
+      i++;
+
 }
+while (i < cars.length)
 text += "</ul>"
-document.getElementById("demo").innerHTML =text;
+document.getElementById("demo1").innerHTML = text;
