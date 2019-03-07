@@ -6,17 +6,50 @@
 
   <body>
 
-    <h1>My world</h1>
-    <p>Hi i am awesome</p>
-    <p>jQuery is awesome</p>
+    <h1>
+        Our class
+    </h1>
 
-    <script>
+    <p class="weAreOne">
+       Hello I am Yvonne and am very dirty minded
+    </p>
 
-    $(document).ready(function(){
-      $("p").click(function(){
-        $(this).hide();
+       <script>
+       $(document).ready(function(){
+         $("ul li:first").click(function(){
+           $("ul li:first").hide();
+        });
+        });
+
+
+       $(document).ready(function(){
+        $("button").click(function(){
+          $(".weAreOne").hide();
       });
-    });
-    </script>
+      });
+
+       </script>
+
+
+     <ul>
+
+         <li>
+           Rumbi would be a good girl for Tau
+          </li>
+        <li>
+          Vimbai and tatenda we meant to be
+          </li>
+          <li  style=color:blue>
+            Tricia only dates guys who drive mercs
+          </li>
+      </ul>
+
+      <button>A button</button>
+      
+
+
+
+
+
   </body>
 </html>
