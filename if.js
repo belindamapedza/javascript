@@ -1,6 +1,5 @@
-var days = ["Monday","Tuesday","Wednesday"];
-
-if (days[0] == "Monday"){
+var cars = ["Monday","Tuesday","Wednesday"];
+   if days[0] == "Monday");
     document.write("Hey I found Monday <br> ");
   } else {
       document.write("Bummer man, no Monday here");
