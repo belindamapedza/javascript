@@ -1,0 +1,30 @@
+<html>
+ <body>
+  <script>
+
+  function SMS(messageBody, date, delivery, receiver, sender){
+    this.text = messageBody;
+    this.date = date;
+    this.deliveryStatus = delivery;
+    this.to = receiver;
+    this.from = sender;
+
+  this.display= function(){
+    document.write(this.text + "</br>" + this.date  + "</br>" + this.to + "</br>" + this.from);
+
+    };
+  }
+
+
+  var SMS = new SMS("Goodmorning ", " 18 March 2019 ", " delivery ", " to Patricia ", " from Yvee");
+
+
+  SMS.display();
+
+
+ </script>
+
+</body>
+
+
+</html>
