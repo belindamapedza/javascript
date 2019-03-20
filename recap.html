@@ -2,22 +2,23 @@
  <body>
   <script>
 
-    function Person(name, surname, age, gender){
+    function Person(name, surname, age, gender, interests){
     this.name = name;
     this.surname = surname;
     this.age = age;
     this.gender = gender;
+    this.interests = interests;
 
     this.toString = function(){
-    document.write("Hi, my name is " + this.name + " of house " + this.surname + " I am " + this.age + " I am " + this.gender + "</br>");
+    document.write("Hi, my name is " + this.name + " of house " + this.surname + " I am " + this.age + " I am " + this.gender + " and I like " + this.interests + "</br>");
 
   };
 }
 
-    var person1 = new Person("Patricia", "Vinga", 26, "female");
-    var person2 = new Person("Belinda", "Mapedza", 22, "female");
-    var person3 = new Person("Yvonne", "Mare", 24, "female");
-    var person4 = new Person("Joy", "Gomba", 25, "female");
+    var person1 = new Person("Patricia", "Vinga", 26, "female", ["cartoons", " boyfriend"]);
+    var person2 = new Person("Belinda", "Mapedza", 22, "female", ["comedy", " music"]);
+    var person3 = new Person("Yvonne", "Mare", 24, "female", ["movies", " going out"]);
+    var person4 = new Person("Joy", "Gomba", 25, "female", ["movies", " travelling"]);
 
 person1.toString();
 person2.toString();
