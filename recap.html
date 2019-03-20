@@ -1,0 +1,30 @@
+<html>
+ <body>
+  <script>
+
+    function Person(name, surname, age, gender){
+    this.name = name;
+    this.surname = surname;
+    this.age = age;
+    this.gender = gender;
+
+    this.toString = function(){
+    document.write("Hi, my name is " + this.name + " of house " + this.surname + " I am " + this.age + " I am " + this.gender + "</br>");
+
+  };
+}
+
+    var person1 = new Person("Patricia", "Vinga", 26, "female");
+    var person2 = new Person("Belinda", "Mapedza", 22, "female");
+    var person3 = new Person("Yvonne", "Mare", 24, "female");
+    var person4 = new Person("Joy", "Gomba", 25, "female");
+
+person1.toString();
+person2.toString();
+person3.toString();
+person4.toString();
+
+  </script>
+
+  </body>
+</html>
